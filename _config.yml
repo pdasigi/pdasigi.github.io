@@ -1,0 +1,18 @@
+title: Pradeep Dasigi's Homepage
+author: pdasigi
+email: pradeepd@allenai.org
+
+remote_theme: thelehhman/plainwhite-jekyll
+sass:
+        sass_dir: _sass
+plainwhite:
+        name: Pradeep Dasigi
+        tagline: Research Scientist at AI2
+        date_format: "%b %-d, %Y"
+
+        social_links:
+                twitter: pdasigi
+                github: pdasigi
+                linkedIn: in/pradeepdasigi
+plugins:
+        - jekyll-seo-tag

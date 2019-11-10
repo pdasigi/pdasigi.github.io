@@ -18,7 +18,7 @@ plainwhite:
                 sScholar: 2697425
 
         content: >
-          I'm a currently a research scientist at [AI2](https://allenai.org/), on the [AllenNLP
+          I'm a currently a research scientist at <a href="https://allenai.org/">AI2</a>, on the [AllenNLP
           team](https://allennlp.org/). I work towards natural language understanding, with a focus on reading
           comprehension and structured prediction. Checkout [my
           publications](https://www.semanticscholar.org/author/Pradeep-Dasigi/2697425) for an up-to-date overview of my

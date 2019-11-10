@@ -34,7 +34,9 @@
 			<p>&copy; 2019</p>
 		</section>
 		<section class="content">
-			{{ content }}
+                {%- if site.plainwhite.content -%}
+			{{ site.plainwhite.content }}
+                {%- endif -%}
 		</section>
 	</main>
 	{%- if site.plainwhite.analytics_id -%}

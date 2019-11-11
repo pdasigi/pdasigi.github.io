@@ -19,11 +19,12 @@ plainwhite:
 
         content: >
           <p>I'm a currently a research scientist at <a href="https://allenai.org/">AI2</a>, on the
-          <a href="https://allennlp.org/">AllenNLP</a>. I work towards natural language understanding, with a focus on reading
+          <a href="https://allennlp.org/">AllenNLP</a> team. I work towards natural language understanding, with a focus on reading
           comprehension and structured prediction. Checkout
           <a href="https://www.semanticscholar.org/author/Pradeep-Dasigi/2697425">my papers</a> for an up-to-date overview of my
           research.</p> <p>I have a PhD from <a href="https://www.lti.cs.cmu.edu/">Language Technologies
-          Institute</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, and a Masters degree from
+          Institute</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I wrote a <a href="/assets/thesis.pdf">thesis</a>
+          on Knowledge-Aware Natural Language Understanding, advised by <a href="https://www.cs.cmu.edu/~hovy/">Prof. Ed Hovy</a>, and a Masters degree from
           <a href="http://www.cs.columbia.edu/">Columbia University</a>.</p>
 
 plugins:

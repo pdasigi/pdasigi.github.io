@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 	{%- include head.html -%}
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 </head>
 <body>
 	<main class="container">
 		<section class="about">
 			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
-			<h2>{{ site.plainwhite.name }}</h2>
-			<p class="tagline">{{ site.plainwhite.tagline }}</p>
 			<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
@@ -17,17 +16,15 @@
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.twitter -%}
-                <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+                		<a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
                 {%- endif -%}
 			</ul>
 			<ul class="social">
                 {%- if site.plainwhite.social_links.gScholar -%}
-				<a href="https://scholar.google.com/citations?user={{site.plainwhite.social_links.gScholar }}"><li>Google Scholar</li></a>
+				<a href="https://scholar.google.com/citations?user={{site.plainwhite.social_links.gScholar }}"><li><i class="ai ai-google-scholar ai-3x"></i></li></a>
                 {%- endif -%}
-			</ul>
-			<ul class="social">
                 {%- if site.plainwhite.social_links.sScholar -%}
-				<a href="https://www.semanticscholar.org/author/{{site.plainwhite.social_links.sScholar }}"><li>Semantic Scholar</li></a>
+			<a href="https://www.semanticscholar.org/author/{{site.plainwhite.social_links.sScholar }}"><li><i class="ai ai-semantic-scholar ai-3x"></i></li></a>
                 {%- endif -%}
 
 			</ul>
@@ -35,6 +32,7 @@
 		</section>
 		<section class="content">
                 {%- if site.plainwhite.content -%}
+			<h1>{{ site.plainwhite.name }}</h1>
 			{{ site.plainwhite.content }}
                 {%- endif -%}
 		</section>

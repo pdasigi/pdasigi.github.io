@@ -7,7 +7,7 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
+			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}" title="Hello!">
 			<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
@@ -33,6 +33,13 @@
 		<section class="content">
                 {%- if site.plainwhite.content -%}
 			<h1>{{ site.plainwhite.name }}</h1>
+			{{ site.plainwhite.content }}
+                {%- endif -%}
+		</section>
+		<section class="publications">
+                {%- if site.plainwhite.publications -%}
+			<!-- TODO: Use javascript to loop through publications and make a container for each publication. -->
+			<h1>Publications</h1>
 			{{ site.plainwhite.content }}
                 {%- endif -%}
 		</section>

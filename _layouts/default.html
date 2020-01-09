@@ -3,14 +3,15 @@
 <head>
 	{%- include head.html -%}
 	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 	<main class="container">
 		<section class="about">
 			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}" title="Hello!">
 			<ul class="social">
-                {%- if site.plainwhite.social_links.github -%}
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+                {%- if site.plainwhite.email -%}
+				<a href="mailto:{{ site.plainwhite.email }}"><li><i class="fa fa-envelope"></i></li></a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.linkedIn -%}
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
@@ -20,6 +21,9 @@
                 {%- endif -%}
 			</ul>
 			<ul class="social">
+                {%- if site.plainwhite.social_links.github -%}
+				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+                {%- endif -%}
                 {%- if site.plainwhite.social_links.gScholar -%}
 				<a href="https://scholar.google.com/citations?user={{site.plainwhite.social_links.gScholar }}"><li><i class="ai ai-google-scholar ai-3x"></i></li></a>
                 {%- endif -%}

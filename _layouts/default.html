@@ -32,18 +32,21 @@
                 {%- endif -%}
 
 			</ul>
-			<p>&copy; 2020</p>
+		{%- if site.plainwhite.dark_mode -%}
+			<div class="about-footer {{condensed_class}}">
+			<p>Dark Mode
+			 <i class="icon-moon"></i>
+			  <label class="switch">
+			   <input type="checkbox" class="dark-mode-toggle">
+			   <span class="slider round" onclick="toggleDarkMode()"></span>
+			  </label>
+			</p>
+			</div>
+		{%- endif -%}
 		</section>
 		<section class="content">
                 {%- if site.plainwhite.content -%}
 			<h1>{{ site.plainwhite.name }}</h1>
-			{{ site.plainwhite.content }}
-                {%- endif -%}
-		</section>
-		<section class="publications">
-                {%- if site.plainwhite.publications -%}
-			<!-- TODO: Use javascript to loop through publications and make a container for each publication. -->
-			<h1>Publications</h1>
 			{{ site.plainwhite.content }}
                 {%- endif -%}
 		</section>

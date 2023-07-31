@@ -8,7 +8,7 @@ sass:
 plainwhite:
         name: Pradeep Dasigi
         email: pradeepd@allenai.org
-        tagline: Research Scientist at AI2
+        tagline: Senior Research Scientist at AI2
         date_format: "%b %-d, %Y"
         dark_mode: true
 
@@ -20,7 +20,7 @@ plainwhite:
                 sScholar: 2697425
 
         content: >
-          <p>I'm a research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
+          <p>I'm a senior research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
           at the <a href="https://allenai.org/">Allen Institute for AI</a>.</p>
           
           <p>I work towards natural language understanding,

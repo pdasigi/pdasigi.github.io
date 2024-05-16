@@ -20,12 +20,12 @@ plainwhite:
                 sScholar: 2697425
 
         content: >
-          <p>I'm a senior research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
+          <p>I am a senior research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
           at the <a href="https://allenai.org/">Allen Institute for AI</a>.</p>
           
-          <p>I work towards natural language understanding,
-          lately with the goal of building question answering systems that help people quickly access the information they seek.
-          I am also excited about reading comprehension, executable semantic parsing, and efficiently collecting datasets for all
+          <p>I work on building usable language technologies. I have been actively involved in developing <a href="https://allenai.org/olmo">OLMo</a>.
+          My current research interests lie in adapting language models for general use with minimal human effort. I have previously worked on
+          information-seeking question answering, reading comprehension, executable semantic parsing, and efficiently collecting datasets for all
           these tasks. Checkout
           <a href="https://www.semanticscholar.org/author/Pradeep-Dasigi/2697425?sort=pub-date">my papers</a> for an up-to-date overview of my
           research.</p>
@@ -35,7 +35,7 @@ plainwhite:
           on Knowledge-Aware Natural Language Understanding, and a Masters degree from
           <a href="http://www.cs.columbia.edu/">Columbia University</a>.</p>
           
-          <p>I am a frequent host on the <a href="https://soundcloud.com/nlp-highlights">NLP Highlights</a> podcast along with other members
+          <p>I used to be a frequent host on the <a href="https://soundcloud.com/nlp-highlights">NLP Highlights</a> podcast along with other members
           of the AllenNLP team.</p>
 
 plugins:

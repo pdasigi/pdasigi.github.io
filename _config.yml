@@ -8,7 +8,7 @@ sass:
 plainwhite:
         name: Pradeep Dasigi
         email: pradeepd@allenai.org
-        tagline: Senior Research Scientist at AI2
+        tagline: Research Scientist at AI2
         date_format: "%b %-d, %Y"
         dark_mode: true
 
@@ -20,12 +20,12 @@ plainwhite:
                 sScholar: 2697425
 
         content: >
-          <p>I am a senior research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
-          at the <a href="https://allenai.org/">Allen Institute for AI</a>.</p>
+          <p>I am a research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team
+          at <a href="https://allenai.org/">Ai2</a>.</p>
           
-          <p>I work on building usable language technologies. I have been actively involved in developing <a href="https://allenai.org/olmo">OLMo</a>.
-          My current research interests lie in adapting language models for general use with minimal human effort. I have previously worked on
-          information-seeking question answering, reading comprehension, executable semantic parsing, and efficiently collecting datasets for all
+          <p>I have been actively involved in developing <a href="https://allenai.org/olmo">OLMo</a>.
+          I work on all things post-training, and am generally passionate about adapting language models for general use with minimal human effort.
+          I have previously worked on information-seeking question answering, reading comprehension, executable semantic parsing, and efficiently collecting datasets for all
           these tasks. Checkout
           <a href="https://www.semanticscholar.org/author/Pradeep-Dasigi/2697425?sort=pub-date">my papers</a> for an up-to-date overview of my
           research.</p>

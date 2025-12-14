@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Pradeep Dasigi | About
+title: Pradeep Dasigi
 ---
 
 <p>I am a research scientist on the <a href="https://allennlp.org/">AllenNLP</a> team

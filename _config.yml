@@ -12,6 +12,7 @@ plainwhite:
         tagline: Research Scientist at AI2
         date_format: "%b %-d, %Y"
         dark_mode: true
+        analytics_id: G-8ENLK7EDM6
 
         social_links:
                 twitter: pdasigi

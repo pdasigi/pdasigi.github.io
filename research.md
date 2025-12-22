@@ -10,7 +10,7 @@ research. The following are the core themes of my work and some associated selec
 <li>
       Open Language Modeling Recipes
       <ul>
-      <li><a href="https://www.semanticscholar.org/paper/Olmo-3-Ettinger-Bertsch/c7457fa5c913aaf73ca1d22ede549169f9f58463">Olmo 3</li>
+      <li><a href="https://www.semanticscholar.org/paper/Olmo-3-Ettinger-Bertsch/c7457fa5c913aaf73ca1d22ede549169f9f58463">Olmo 3</a></li>
       <li><a href="https://www.semanticscholar.org/paper/T%C3%9CLU-3%3A-Pushing-Frontiers-in-Open-Language-Model-Lambert-Morrison/6a7c29829227bfd65ae0ffec294a874bb9ea0871">Tulu 3: Pushing Frotiers in Open Language Model Post-Training</a></li>
       <li><a href="https://www.semanticscholar.org/paper/How-Far-Can-Camels-Go-Exploring-the-State-of-Tuning-Wang-Ivison/fbd2c8089870814449f9254a711041bbae145a82">How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources</a></li>
       </ul>
